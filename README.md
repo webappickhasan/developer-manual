@@ -33,7 +33,7 @@ Connect your git account with the current PC through `SSH Key`. Read this articl
 # PHP Coding Standard
 # WordPress Plugin Development
 The best resource for learning about WordPress plugin development is [Introduction to Plugin Development](https://developer.wordpress.org/plugins/intro/) by WordPress.
-**WebAppick** provides and prefer developers to learn about WordPress plugin development a tutorial by **Hasin Hayder**. Here is the link
+**WebAppick** provides and prefer developers to learn about WordPress plugin development from a tutorial by **Hasin Hayder**. Here is the link
 [ওয়ার্ডপ্রেস প্লাগইন ডেভেলপমেন্ট](https://learnwith.hasinhayder.com/wp/course/wordpress-plugin-development/).
 Credentials: 
 ```
@@ -45,7 +45,7 @@ If these credentials are not working please ask for credentials to who are conce
    
 # WordPress Theme Development
 The best resource for learning about WordPress theme development is [Introduction to Theme Development](https://developer.wordpress.org/themes/getting-started/) by WordPress.
-**WebAppick** provides and prefer developers to learn about WordPress plugin development a tutorial by **Hasin Hayder**. Here is the link
+**WebAppick** provides and prefer developers to learn about WordPress plugin development from a tutorial by **Hasin Hayder**. Here is the link
 [ওয়ার্ডপ্রেস থিম ডেভেলপমেন্ট](https://learnwith.hasinhayder.com/wp/course/wordpress-theme-development/).
 Credentials:
 ```
@@ -53,8 +53,16 @@ username:
 password:
 ```
 If these credentials are not working please ask for credentials to who are concern.
+
 # WordPress Rest API Development
 The best resource for learning about WordPress Rest API development is [REST API Handbook ](https://developer.wordpress.org/rest-api/~) by WordPress.
+**WebAppick** prefer developers to learn about WordPress Rest API development from a tutorial by **Tarek Hasan**. Here is the link
+[Introduction to REST API in WordPress](https://www.youtube.com/watch?v=KoxcDK76zzI&t=14s&ab_channel=TareqHasan).
+
+> [!WARNING]
+> 
+> This tutorial is not beginner friendly. First read and practice about Rest API from documentation by WordPress mentioned above.
+> Then try to view this tutorial by **Tarek Hasan**
 
 # Unit Testing
 # React Tutorials
