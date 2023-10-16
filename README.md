@@ -14,12 +14,14 @@
 9. [React Tutorials](#react-tutorials)
 
 # PC Setup
-1. IDE PHPStorm
-   1. Import IDE Settings 
-   2. [How to import IDE Settings](https://www.jetbrains.com/help/phpstorm/sharing-your-ide-settings.html)
-2. Node.js, XAMPP, Git
+1. IDE will be PHPStorm
+   1.  Import IDE Settings. Please visit the below link to import IDE settings.
+   2. [How to import IDE Settings](https://www.jetbrains.com/help/phpstorm/sharing-your-ide-settings.html#import-export-settings)
+2. [Node.js LTS version](https://nodejs.org/en/download), [XAMPP](https://www.apachefriends.org/download.html) or [MAMP](https://www.mamp.info/en/downloads/), [Git](https://git-scm.com/downloads)
+3. If you're using MacOs then install [brew](https://brew.sh/)
+4. Create an account to [atlassian](https://www.atlassian.com/) for task management.
+5. Connect with official [slack](https://slack.com/) channel for communication with team.
 
-C
 
 # Git Set Up
 Connect your git account with the current PC through `SSH Key`. Read this article to connect with your PC.
@@ -30,8 +32,30 @@ Connect your git account with the current PC through `SSH Key`. Read this articl
 
 # PHP Coding Standard
 # WordPress Plugin Development
+The best resource for learning about WordPress plugin development is [Introduction to Plugin Development](https://developer.wordpress.org/plugins/intro/) by WordPress.
+**WebAppick** provides and prefer developers to learn about WordPress plugin development a tutorial by **Hasin Hayder**. Here is the link
+[ওয়ার্ডপ্রেস প্লাগইন ডেভেলপমেন্ট](https://learnwith.hasinhayder.com/wp/course/wordpress-plugin-development/).
+Credentials: 
+```
+username: 
+password:
+```
+If these credentials are not working please ask for credentials to who are concern.
+
+   
 # WordPress Theme Development
+The best resource for learning about WordPress theme development is [Introduction to Theme Development](https://developer.wordpress.org/themes/getting-started/) by WordPress.
+**WebAppick** provides and prefer developers to learn about WordPress plugin development a tutorial by **Hasin Hayder**. Here is the link
+[ওয়ার্ডপ্রেস থিম ডেভেলপমেন্ট](https://learnwith.hasinhayder.com/wp/course/wordpress-theme-development/).
+Credentials:
+```
+username: 
+password:
+```
+If these credentials are not working please ask for credentials to who are concern.
 # WordPress Rest API Development
+The best resource for learning about WordPress Rest API development is [REST API Handbook ](https://developer.wordpress.org/rest-api/~) by WordPress.
+
 # Unit Testing
 # React Tutorials
 
