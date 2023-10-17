@@ -18,7 +18,7 @@
    1.  Import IDE Settings. Please visit the below link to import IDE settings.
    2. [How to import IDE Settings](https://www.jetbrains.com/help/phpstorm/sharing-your-ide-settings.html#import-export-settings)
 2. [Node.js LTS version](https://nodejs.org/en/download), [XAMPP](https://www.apachefriends.org/download.html) or [MAMP](https://www.mamp.info/en/downloads/), [Git](https://git-scm.com/downloads)
-3. If you're using MacOs then install [brew](https://brew.sh/)
+3. If you're using macOS then install [brew](https://brew.sh/)
 4. Create an account to [atlassian](https://www.atlassian.com/) for task management by JIRA software.
 5. Connect with official [slack](https://slack.com/) channel for communication with team.
 
@@ -42,7 +42,7 @@ Coding standards help avoid common coding errors, improve the readability of cod
 
 Following the standards means anyone will be able to understand a section of code and modify it, if needed, without regard to when it was written or by whom.
 
-If you are planning to contribute to WordPress core, you need to familiarize yourself with these standards, as any code you submit will need to comply with them.
+If you are planning to contribute to WordPress Core, you need to familiarize yourself with these standards, as any code you submit will need to comply with them.
 
 ### Language-specific Standards
 1. CSS Coding Standards
@@ -55,7 +55,7 @@ If you are planning to contribute to WordPress core, you need to familiarize you
 
 # WordPress Plugin Development
 The best resource for learning about WordPress plugin development is [Introduction to Plugin Development](https://developer.wordpress.org/plugins/intro/) by WordPress.
-**WebAppick** provides and prefer developers to learn about WordPress plugin development from a tutorial by **Hasin Hayder**. Here is the link
+**WebAppick** provides and prefers developers to learn about WordPress plugin development from a tutorial by **Hasin Hayder**. Here is the link
 [ওয়ার্ডপ্রেস প্লাগইন ডেভেলপমেন্ট](https://learnwith.hasinhayder.com/wp/course/wordpress-plugin-development/).
 
 
