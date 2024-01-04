@@ -143,7 +143,7 @@ The best resource for learning about WordPress Rest API development is [REST API
 ### Project Setup
 We'll configure codeception for wpunit testing. Below step by step shown how to set up project.
 1. Add ```require-dev``` composer packages to `composer.json` file
-   ``
+   ```
    "codeatcode/codeatcs": "^1.0",
    "codeception/codeception": "^4.2",
    "codeception/module-asserts": "^1.0",
@@ -162,10 +162,10 @@ We'll configure codeception for wpunit testing. Below step by step shown how to 
    "phpunit/phpunit": "^9.2",
    "szepeviktor/phpstan-wordpress": "^1.1.2",
    "php-webdriver/webdriver": "^1.12"
-``
+```
 2. Set up the `codeception.dist.yml` file
 3. Set up `.env` file. fill params of `env` file constants
-   ``
+   ```
    WP_ROOT=/Applications/MAMP/htdocs/ctxfeedpro
    WP_URL='http://localhost:8888/ctxfeedpro'
    WP_URL_S='http://localhost:8888/ctxfeedpro'
@@ -226,6 +226,146 @@ Sick and tired of defending code quality over and over again? GrumPHP will do it
 GrumPHP has a set of common tasks built-in. You will be able to use GrumPHP with a minimum of configuration.
 
 [Installation & Documentation ](https://github.com/phpro/grumphp#installation)
+
+
+
+
+Use specific php in Mac
+
+First Run The Command.
+
+THEN RUN THIS COMMAND
+```
+export export MAMP_PHP=/Applications/MAMP/bin/php/php7.4.21/bin
+export PATH=“$MAMP_PHP:$PATH”
+```
+
+
+For Editing bash_profile file
+
+```
+Sodu nano ~/.bash_profile
+```
+Add these 2 line in bash_profile file
+
+```
+export PATH="/Applications/MAMP/bin/php/php7.4.21/bin:$PATH"
+export PATH=$PATH:/Applications/MAMP/Library/bin
+```
+
+Then run this command
+
+```source ~/.bash_profile```
+
+# Unit Testing With MACOS
+
+For Unit Testing we will use codeception. Codeception is a modern full-stack testing framework for PHP. Inspired by BDD, it provides an absolutely new way of writing acceptance, functional and even unit tests. Powered by PHPUnit.
+
+* Run this command for testing a file
+```
+php ./vendor/bin/codecept run tests/wpunit/Common/DropdropOptionTest.php --debug
+```
+
+* Run this command for testing a file with specific test case
+```
+php vendor/bin/codecept run tests/wpunit/Product/ProductInfoTest.php:test_title --debug
+```
+
+PHPSTAN TEST
+```
+php ./vendor/bin/phpstan  analyse --standard=CodeatCodingStandard libs/webappick-product-feed-for-woocommerce/V5/Common/Helper.php
+
+```
+
+PHPCS TEST
+```
+php ./vendor/bin/phpcs --standard=CodeatCodingStandard libs/webappick-product-feed-for-woocommerce/V5/Common/Helper.php
+
+```
+
+
+
+# How to override the path of PHP to use the MAMP path?
+
+# How to add MySQL to $PATH variable to resolve "mysql: command not found"?
+
+https://stackoverflow.com/questions/4145667/how-to-override-the-path-of-php-to-use-the-mamp-path
+
+# Make alias in Mac
+
+```
+alias codecept="php ./vendor/bin/codecept run "
+alias phpcs='php ./vendor/bin/phpcs --standard=CodeatCodingStandard'
+alias phpcbf='php ./vendor/bin/phpcbf --standard=CodeatCodingStandard'
+export PATH="/Applications/MAMP/bin/php/php7.4.21/bin:$PATH"
+export PATH=$PATH:/Applications/MAMP/Library/bin
+```
+
+
+
+Edit ```.bashrc``` file in home directory
+```
+sudo nano ~/.bashrc
+```
+
+````
+alias codecept="php ./vendor/bin/codecept run "
+alias phpcs='php ./vendor/bin/phpcs --standard=CodeatCodingStandard'
+alias phpcbf='php ./vendor/bin/phpcbf --standard=CodeatCodingStandard'
+export PATH="/Applications/MAMP/bin/php/php7.4.21/bin:$PATH"
+export PATH=$PATH:/Applications/MAMP/Library/bin
+alias grumphp=" php ./vendor/bin/grumphp run"
+````
+
+
+
+# NVM USE IN MAC
+```
+source $(brew --prefix nvm)/nvm.sh
+nvm use 14.15.0
+```
+
+# How to manage multiple GitHub accounts on a single machine with SSH keys
+
+https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
+FOR SWITCHING ACCOUNT
+```
+$ ssh-add -D
+$ ssh-add ~/.ssh/id_azizulhasan
+
+$ ssh-add -D
+$ ssh-add ~/.ssh/id_ed25519
+```
+Change username and email
+
+```
+Git config user.name “azizulhasan”
+Git config user.email “azizulhasan.cr@gmail.com”
+```
+
+
+Path
+/Applications/MAMP/htdocs/wordpress-develop
+
+# Docker Error Bind: Address Already in Use
+https://www.baeldung.com/linux/docker-address-already-in-use
+
+lsof -i:8080 ( port )
+
+source ~/.bash_profile
+
+Reset if there is a problem with running
+
+"env:start": "node ./tools/local-env/scripts/start.js",
+"env:stop": "node ./tools/local-env/scripts/docker.js down",
+"env:restart": "npm run env:stop && npm run env:start",
+"env:clean": "node ./tools/local-env/scripts/docker.js down -v --remove-orphans",
+"env:reset": "node ./tools/local-env/scripts/docker.js down --rmi all -v --remove-orphans"
+
+
+
+
+
 
 
 
