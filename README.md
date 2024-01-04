@@ -350,6 +350,7 @@ Path
 # Docker Error Bind: Address Already in Use
 https://www.baeldung.com/linux/docker-address-already-in-use
 
+```
 lsof -i:8080 ( port )
 
 source ~/.bash_profile
@@ -362,6 +363,7 @@ Reset if there is a problem with running
 "env:clean": "node ./tools/local-env/scripts/docker.js down -v --remove-orphans",
 "env:reset": "node ./tools/local-env/scripts/docker.js down --rmi all -v --remove-orphans"
 
+```
 
 
 
