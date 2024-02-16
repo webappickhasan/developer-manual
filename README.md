@@ -366,6 +366,9 @@ Reset if there is a problem with running
 ```
 
 
+# WordPress Coding Standards
+https://wp-punk.com/wordpress-coding-standards-for-php/
+https://packagist.org/packages/wp-coding-standards/wpcs
 
 
 
